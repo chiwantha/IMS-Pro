@@ -1,0 +1,28 @@
+SELECT        dbo.Vw_Sum_At.student_id, dbo.study.student_name, dbo.Vw_Sum_At.class_id, dbo.study.class_name, dbo.Vw_Sum_At.year, dbo.Vw_Sum_At.month, dbo.study.card, dbo.Vw_Sum_At.total_attendance, dbo.class_fees.price, 
+                         dbo.class_fees.recept_no
+FROM            dbo.Vw_Sum_At LEFT OUTER JOIN
+                         dbo.study ON dbo.Vw_Sum_At.student_id = dbo.study.student_id AND dbo.Vw_Sum_At.class_id = dbo.study.class_id LEFT OUTER JOIN
+                         dbo.class_fees ON dbo.Vw_Sum_At.student_id = dbo.class_fees.student_id AND dbo.Vw_Sum_At.class_id = dbo.class_fees.class_id AND dbo.Vw_Sum_At.year = dbo.class_fees.year AND 
+                         dbo.Vw_Sum_At.month = dbo.class_fees.month - make new columns as my ligic .okay
+
+filter all with (Student_id and class_id and month and year)
+Group all data by Class_Id
+
+column 1 = [ Full_Card_Count ] logic = if card = full and total_attendance >= 2 and ( total_attendance >= 1 and price not null and recept no not null), othervise = 0 ( i want sum of all student which in class )
+column 2 = [ Half_Card_Count ] logic = if card = Half and total_attendance >= 2 and ( total_attendance >= 1 and price not null and recept no not null) , othervise = 0 ( i want sum of all student which in class )
+column 3 = [ Free_Card_Count ] logic = if card = free and total_attendance >= 2 and ( total_attendance >= 1 and price not null and recept no not null) , othervise = 0 ( i want sum of all student which in class )
+column 4 = [ Full_Card_Ammount ] logic = sum of price where Full_Card_Count = 1
+column 5 = [ Half_Card_Ammount ] logic = sum of price where Half_Card_Count = 1
+column 6 = [ Full_Card_Not_Paid_Count ] logic = if card = Full and where total_attendance >= 2 and price is not null and recept_no is null ( i want sum of all student which in class )
+column 7 = [ Half_Card_Not_Paid_Count ] logic = if card = Half and where total_attendance >= 2 and price is not null and recept_no is null ( i want sum of all student which in class )
+column 8 = [ Full_Card_Not_Paid_Ammount] logic = sum of price where if card = Full and where total_attendance >= 2 and price is not null and recept_no is null ( i want sum of all student which in class )
+column 9 = [ Half_Card_Not_Paid_Ammount] logic = sum of price where if card = Half and where total_attendance >= 2 and price is not null and recept_no is null ( i want sum of all student which in class )
+column 10 = [ total Outstanding ] = Full_Card_Not_Paid_Ammount + Half_Card_Not_Paid_Ammount
+column 11 = [ Full_Card_Paid_Count] logic = if card = Full and price is not null and recept_no is not null ( i want sum of all student which in class )
+column 12 = [ Half_Card_Paid_Count] logic = if card = Half and price is not null and recept_no is not null ( i want sum of all student which in class )
+column 13 = [ Full_Card_Paid_Amount] logic = if sum of price where card = Full and price is not null and recept_no is not null ( i want sum of all student which in class )
+column 14 = [ Half_Card_Paid_Amount] logic = if sum of price where card = Half and price is not null and recept_no is not null ( i want sum of all student which in class )
+column 15 = [ total Earnings ] = Full_Card_Paid_Ammount + Half_Card_Paid_Ammount
+column 16 = [ one day not paid ] = where total attedance < 2 and price is null and recept no is null
+
+i dont want total attendance column

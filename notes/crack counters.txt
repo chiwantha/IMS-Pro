@@ -1,0 +1,13 @@
+SUM(
+    CASE 
+        WHEN dbo.study.card = 'half' AND (
+            dbo.Vw_Sum_At.total_attendance >= 2
+            OR (
+                dbo.Vw_Sum_At.total_attendance < 2
+                AND dbo.class_fees.price IS NOT NULL
+                AND dbo.class_fees.recept_no IS NOT NULL
+            )
+        ) THEN 1 
+        ELSE 0 
+    END
+) AS Half_Card_Count
