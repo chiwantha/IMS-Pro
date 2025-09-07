@@ -4,10 +4,6 @@
 *.suo
 
 # Build folders
-bin/
-obj/
-Debug/
-Release/
 
 # NuGet
 packages/

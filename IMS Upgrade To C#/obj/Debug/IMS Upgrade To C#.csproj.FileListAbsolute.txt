@@ -1,0 +1,51 @@
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS Upgrade To C#.csproj.AssemblyReference.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.Properties.Resources.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS Upgrade To C#.csproj.GenerateResource.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS Upgrade To C#.csproj.CoreCompileInputs.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.MDI.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgStudent.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.Shared.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\stdole.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.ReportSource.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.Shared.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\CrystalDecisions.Windows.Forms.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmQrViewer.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmSubject.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgClass.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgExtraClass.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgHoliday.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgInvoice.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgPendingPayments.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgSalary.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgSMS.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgStudy.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgTeacher.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.ReportViewer.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS Upgrade To C#.csproj.CopyComplete
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\IMS.exe.config
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\IMS.exe
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\Debug\IMS.pdb
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS.exe
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS.pdb
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmDevices.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmE_Attendance.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmImageTool.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmManualAttendance.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmSMS.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmUser.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgAbout.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgAttendanceView.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgDashboard.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgDatabase.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.Resources.pgIDCardPortal.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.rptAttendanceReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.rptClassReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.rptStudentReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.frmLogin.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.Splash.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.pgInvoiceCart.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\Debug\IMS_Upgrade_To_C_.CartItem.resources

@@ -1,0 +1,162 @@
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\IMS.exe.config
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\IMS.exe
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\IMS.pdb
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.ReportSource.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Shared.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Windows.Forms.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\stdole.dll
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.ReportSource.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Shared.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Windows.Forms.xml
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.AssemblyReference.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.CartItem.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmDevices.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmE_Attendance.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmImageTool.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmLogin.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmManualAttendance.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmQrViewer.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmSMS.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmSubject.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmUser.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.MDI.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgAbout.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgAttendanceView.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgClass.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgDashboard.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgDatabase.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgExtraClass.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgHoliday.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgInvoice.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgInvoiceCart.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgPendingPayments.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgSalary.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgSMS.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgStudent.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgStudy.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgTeacher.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Properties.Resources.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.ReportViewer.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Resources.pgIDCardPortal.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptAttendanceReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptClassReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptStudentReport.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Splash.resources
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.GenerateResource.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.CoreCompileInputs.cache
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.CopyComplete
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS.exe
+E:\c++\IMS Upgrade To C#\IMS Upgrade To C#\obj\x64\Debug\IMS.pdb
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\IMS.exe.config
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\IMS.exe.manifest
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\IMS.application
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\IMS.exe
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\IMS.pdb
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\BouncyCastle.Cryptography.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.ReportSource.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Shared.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Windows.Forms.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Google.Protobuf.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Guna.UI2.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Compression.LZ4.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Compression.LZ4.Streams.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Hash.xxHash.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\MySql.Data.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Buffers.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Configuration.ConfigurationManager.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.IO.Pipelines.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Memory.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Numerics.Vectors.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Threading.Tasks.Extensions.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\ZstdSharp.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\stdole.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\BouncyCastle.Cryptography.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.CrystalReports.Engine.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.ReportSource.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Shared.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\CrystalDecisions.Windows.Forms.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Google.Protobuf.pdb
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Google.Protobuf.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Compression.LZ4.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Compression.LZ4.Streams.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\K4os.Hash.xxHash.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\MySql.Data.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Buffers.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.IO.Pipelines.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Memory.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Numerics.Vectors.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Threading.Tasks.Extensions.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.AssemblyReference.cache
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Custom_Controls.At_View.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.CartItem.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Custom_Controls.ClassViewer.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmDevices.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmE_Attendance.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmImageTool.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmLogin.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmManualAttendance.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmQrViewer.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmSMS.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmSubject.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.frmUser.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.MDI.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgAbout.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgAttendanceView.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgClass.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgControlPanel.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgDatabase.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgExtraClass.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgHoliday.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgInvoice.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgInvoiceCart.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgPendingPayments.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgSalary.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgSMS.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgStudent.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgStudy.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgTeacher.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.pgSettings.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Properties.Resources.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.ReportViewer.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Resources.pgIDCardPortal.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptAttendanceReport.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptClassReport.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.rptStudentReport.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Splash.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.GenerateResource.cache
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.CoreCompileInputs.cache
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS.exe.manifest
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS.application
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS Upgrade To C#.csproj.CopyComplete
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS.exe
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS.pdb
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\EntityFramework.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\EntityFramework.SqlServer.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Microsoft.Data.Sqlite.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\SQLitePCLRaw.core.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Data.SQLite.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Data.SQLite.EF6.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Data.SQLite.Linq.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\EntityFramework.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\EntityFramework.SqlServer.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\Microsoft.Data.Sqlite.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Data.SQLite.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Forms.rptTimeTable.resources
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\QRCoder.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\zxing.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\zxing.presentation.dll
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\System.Configuration.ConfigurationManager.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\zxing.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\bin\x64\Debug\zxing.presentation.xml
+E:\C#\IMS PRO\IMS Pro\IMS Upgrade To C#\obj\x64\Debug\IMS_Upgrade_To_C_.Forms.frmQrLink.resources
