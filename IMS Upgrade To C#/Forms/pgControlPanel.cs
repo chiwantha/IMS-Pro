@@ -77,7 +77,8 @@ namespace IMS_Upgrade_To_C_
             Back.BackColor = attendance.StudentColor;
 
             // update check boxes
-            await DisplayAttendance(attendance.week1, attendance.week2, attendance.week3, attendance.week4, attendance.week5);
+            await DisplayAttendance(attendance.week1, attendance.week2, attendance.week3, attendance.week4, attendance.week5, 
+                attendance.week1_2, attendance.week2_2, attendance.week3_2, attendance.week4_2, attendance.week5_2);
 
             if (attendance.StudentImage != null)
             {
@@ -200,25 +201,40 @@ namespace IMS_Upgrade_To_C_
             txtInvBalance.Text = "";
         }
 
-        Task DisplayAttendance(bool week1, bool week2, bool week3, bool week4, bool week5)
+        Task DisplayAttendance(bool week1, bool week2, bool week3, bool week4, bool week5, bool week1_2, bool week2_2, bool week3_2, bool week4_2, bool week5_2)
         {
             week1label.Enabled = true;
             week2label.Enabled = true;
             week3label.Enabled = true;
             week4label.Enabled = true;
             week5label.Enabled = true;
+            week1label2.Enabled = true;
+            week2label2.Enabled = true;
+            week3label2.Enabled = true;
+            week4label2.Enabled = true;
+            week5label2.Enabled = true;
 
             week1label.Checked = week1;
             week2label.Checked = week2;
             week3label.Checked = week3;
             week4label.Checked = week4;
             week5label.Checked = week5;
+            week1label2.Checked = week1_2;
+            week2label2.Checked = week2_2;
+            week3label2.Checked = week3_2;
+            week4label2.Checked = week4_2;
+            week5label2.Checked = week5_2;
 
             week1label.Enabled = false;
             week2label.Enabled = false;
             week3label.Enabled = false;
             week4label.Enabled = false;
             week5label.Enabled = false;
+            week1label2.Enabled = false;
+            week2label2.Enabled = false;
+            week3label2.Enabled = false;
+            week4label2.Enabled = false;
+            week5label2.Enabled = false;
             return Task.CompletedTask;
         }
 
@@ -429,7 +445,7 @@ namespace IMS_Upgrade_To_C_
             Connect.Enabled = false;
             await LoadStudent();
             await UpdateAttendaceUiAsync();
-            await DisplayAttendance(false, false, false, false, false);
+            await DisplayAttendance(false, false, false, false, false, false, false, false, false, false);
         }
 
         private void txtIDAtt_TextChanged(object sender, EventArgs e)

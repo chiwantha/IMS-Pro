@@ -83,6 +83,11 @@
             this.rbNameAtt = new System.Windows.Forms.RadioButton();
             this.rbIdAtt = new System.Windows.Forms.RadioButton();
             this.Back = new System.Windows.Forms.Panel();
+            this.week1label = new System.Windows.Forms.CheckBox();
+            this.week2label = new System.Windows.Forms.CheckBox();
+            this.week3label = new System.Windows.Forms.CheckBox();
+            this.week4label = new System.Windows.Forms.CheckBox();
+            this.week5label = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.lblShow_Stats = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -112,14 +117,15 @@
             this.DuelSelector = new System.Windows.Forms.CheckBox();
             this.serialPortRfid = new System.IO.Ports.SerialPort(this.components);
             this.flow_at_panel = new System.Windows.Forms.FlowLayoutPanel();
+            this.at_View4 = new IMS_Upgrade_To_C_.Custom_Controls.At_View();
             this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel11 = new System.Windows.Forms.Panel();
-            this.week5label = new System.Windows.Forms.CheckBox();
-            this.week4label = new System.Windows.Forms.CheckBox();
-            this.week3label = new System.Windows.Forms.CheckBox();
-            this.week1label = new System.Windows.Forms.CheckBox();
-            this.week2label = new System.Windows.Forms.CheckBox();
-            this.at_View4 = new IMS_Upgrade_To_C_.Custom_Controls.At_View();
+            this.week1label2 = new System.Windows.Forms.CheckBox();
+            this.week2label2 = new System.Windows.Forms.CheckBox();
+            this.week3label2 = new System.Windows.Forms.CheckBox();
+            this.week4label2 = new System.Windows.Forms.CheckBox();
+            this.week5label2 = new System.Windows.Forms.CheckBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.FlowPannel.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -1036,6 +1042,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Back.BackColor = System.Drawing.Color.Green;
+            this.Back.Controls.Add(this.week1label2);
+            this.Back.Controls.Add(this.week2label2);
+            this.Back.Controls.Add(this.week3label2);
+            this.Back.Controls.Add(this.week4label2);
+            this.Back.Controls.Add(this.week5label2);
+            this.Back.Controls.Add(this.label15);
             this.Back.Controls.Add(this.week1label);
             this.Back.Controls.Add(this.week2label);
             this.Back.Controls.Add(this.week3label);
@@ -1056,16 +1068,106 @@
             this.Back.Size = new System.Drawing.Size(727, 221);
             this.Back.TabIndex = 135;
             // 
+            // week1label
+            // 
+            this.week1label.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week1label.AutoSize = true;
+            this.week1label.BackColor = System.Drawing.Color.Red;
+            this.week1label.Checked = true;
+            this.week1label.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.week1label.Enabled = false;
+            this.week1label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
+            this.week1label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week1label.Location = new System.Drawing.Point(332, 144);
+            this.week1label.Name = "week1label";
+            this.week1label.Size = new System.Drawing.Size(66, 27);
+            this.week1label.TabIndex = 152;
+            this.week1label.Text = "Week 1";
+            this.week1label.UseVisualStyleBackColor = false;
+            // 
+            // week2label
+            // 
+            this.week2label.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week2label.AutoSize = true;
+            this.week2label.BackColor = System.Drawing.Color.Red;
+            this.week2label.Checked = true;
+            this.week2label.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.week2label.Enabled = false;
+            this.week2label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
+            this.week2label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week2label.Location = new System.Drawing.Point(404, 144);
+            this.week2label.Name = "week2label";
+            this.week2label.Size = new System.Drawing.Size(66, 27);
+            this.week2label.TabIndex = 151;
+            this.week2label.Text = "Week 2";
+            this.week2label.UseVisualStyleBackColor = false;
+            // 
+            // week3label
+            // 
+            this.week3label.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week3label.AutoSize = true;
+            this.week3label.BackColor = System.Drawing.Color.Red;
+            this.week3label.Checked = true;
+            this.week3label.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.week3label.Enabled = false;
+            this.week3label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
+            this.week3label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week3label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week3label.Location = new System.Drawing.Point(476, 144);
+            this.week3label.Name = "week3label";
+            this.week3label.Size = new System.Drawing.Size(66, 27);
+            this.week3label.TabIndex = 150;
+            this.week3label.Text = "Week 3";
+            this.week3label.UseVisualStyleBackColor = false;
+            // 
+            // week4label
+            // 
+            this.week4label.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week4label.AutoSize = true;
+            this.week4label.BackColor = System.Drawing.Color.Red;
+            this.week4label.Checked = true;
+            this.week4label.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.week4label.Enabled = false;
+            this.week4label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
+            this.week4label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week4label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week4label.Location = new System.Drawing.Point(548, 144);
+            this.week4label.Name = "week4label";
+            this.week4label.Size = new System.Drawing.Size(66, 27);
+            this.week4label.TabIndex = 149;
+            this.week4label.Text = "Week 4";
+            this.week4label.UseVisualStyleBackColor = false;
+            // 
+            // week5label
+            // 
+            this.week5label.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week5label.AutoSize = true;
+            this.week5label.BackColor = System.Drawing.Color.Red;
+            this.week5label.Checked = true;
+            this.week5label.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.week5label.Enabled = false;
+            this.week5label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
+            this.week5label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week5label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week5label.Location = new System.Drawing.Point(620, 144);
+            this.week5label.Name = "week5label";
+            this.week5label.Size = new System.Drawing.Size(66, 27);
+            this.week5label.TabIndex = 148;
+            this.week5label.Text = "Week 5";
+            this.week5label.UseVisualStyleBackColor = false;
+            // 
             // label9
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(211, 173);
+            this.label9.Location = new System.Drawing.Point(215, 141);
             this.label9.Name = "label9";
             this.label9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label9.Size = new System.Drawing.Size(113, 36);
+            this.label9.Size = new System.Drawing.Size(109, 27);
             this.label9.TabIndex = 142;
             this.label9.Text = "Dens :";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1074,12 +1176,12 @@
             // 
             this.lblShow_Stats.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblShow_Stats.BackColor = System.Drawing.Color.Transparent;
-            this.lblShow_Stats.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblShow_Stats.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShow_Stats.ForeColor = System.Drawing.Color.Cyan;
-            this.lblShow_Stats.Location = new System.Drawing.Point(330, 132);
+            this.lblShow_Stats.Location = new System.Drawing.Point(330, 105);
             this.lblShow_Stats.Name = "lblShow_Stats";
             this.lblShow_Stats.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblShow_Stats.Size = new System.Drawing.Size(383, 36);
+            this.lblShow_Stats.Size = new System.Drawing.Size(383, 26);
             this.lblShow_Stats.TabIndex = 141;
             this.lblShow_Stats.Text = "State";
             this.lblShow_Stats.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1088,12 +1190,12 @@
             // 
             this.label13.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(211, 92);
+            this.label13.Location = new System.Drawing.Point(211, 74);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label13.Size = new System.Drawing.Size(113, 36);
+            this.label13.Size = new System.Drawing.Size(113, 26);
             this.label13.TabIndex = 138;
             this.label13.Text = "Class :";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1102,12 +1204,12 @@
             // 
             this.lblShow_Class_Name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblShow_Class_Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblShow_Class_Name.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblShow_Class_Name.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShow_Class_Name.ForeColor = System.Drawing.Color.Cyan;
-            this.lblShow_Class_Name.Location = new System.Drawing.Point(330, 92);
+            this.lblShow_Class_Name.Location = new System.Drawing.Point(330, 74);
             this.lblShow_Class_Name.Name = "lblShow_Class_Name";
             this.lblShow_Class_Name.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblShow_Class_Name.Size = new System.Drawing.Size(383, 36);
+            this.lblShow_Class_Name.Size = new System.Drawing.Size(383, 26);
             this.lblShow_Class_Name.TabIndex = 140;
             this.lblShow_Class_Name.Text = "Class";
             this.lblShow_Class_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1116,12 +1218,12 @@
             // 
             this.label22.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.White;
-            this.label22.Location = new System.Drawing.Point(211, 132);
+            this.label22.Location = new System.Drawing.Point(211, 105);
             this.label22.Name = "label22";
             this.label22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label22.Size = new System.Drawing.Size(113, 36);
+            this.label22.Size = new System.Drawing.Size(113, 26);
             this.label22.TabIndex = 139;
             this.label22.Text = "State :";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1130,12 +1232,12 @@
             // 
             this.lblShow_Student_Name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblShow_Student_Name.BackColor = System.Drawing.Color.Transparent;
-            this.lblShow_Student_Name.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblShow_Student_Name.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShow_Student_Name.ForeColor = System.Drawing.Color.Cyan;
-            this.lblShow_Student_Name.Location = new System.Drawing.Point(330, 52);
+            this.lblShow_Student_Name.Location = new System.Drawing.Point(330, 43);
             this.lblShow_Student_Name.Name = "lblShow_Student_Name";
             this.lblShow_Student_Name.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblShow_Student_Name.Size = new System.Drawing.Size(383, 36);
+            this.lblShow_Student_Name.Size = new System.Drawing.Size(383, 26);
             this.lblShow_Student_Name.TabIndex = 137;
             this.lblShow_Student_Name.Text = "Name";
             this.lblShow_Student_Name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1144,12 +1246,12 @@
             // 
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(211, 12);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label11.Size = new System.Drawing.Size(113, 36);
+            this.label11.Size = new System.Drawing.Size(113, 26);
             this.label11.TabIndex = 134;
             this.label11.Text = "ID :";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1158,12 +1260,12 @@
             // 
             this.lblShow_Student_ID.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.lblShow_Student_ID.BackColor = System.Drawing.Color.Transparent;
-            this.lblShow_Student_ID.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblShow_Student_ID.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShow_Student_ID.ForeColor = System.Drawing.Color.Cyan;
             this.lblShow_Student_ID.Location = new System.Drawing.Point(330, 12);
             this.lblShow_Student_ID.Name = "lblShow_Student_ID";
             this.lblShow_Student_ID.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblShow_Student_ID.Size = new System.Drawing.Size(383, 36);
+            this.lblShow_Student_ID.Size = new System.Drawing.Size(383, 26);
             this.lblShow_Student_ID.TabIndex = 136;
             this.lblShow_Student_ID.Text = "Id";
             this.lblShow_Student_ID.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1172,12 +1274,12 @@
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Candara", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(211, 52);
+            this.label12.Location = new System.Drawing.Point(211, 43);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label12.Size = new System.Drawing.Size(113, 36);
+            this.label12.Size = new System.Drawing.Size(113, 26);
             this.label12.TabIndex = 135;
             this.label12.Text = "Name :";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -1438,6 +1540,14 @@
             this.flow_at_panel.Size = new System.Drawing.Size(417, 96);
             this.flow_at_panel.TabIndex = 7;
             // 
+            // at_View4
+            // 
+            this.at_View4.BackColor = System.Drawing.Color.White;
+            this.at_View4.Location = new System.Drawing.Point(6, 6);
+            this.at_View4.Name = "at_View4";
+            this.at_View4.Size = new System.Drawing.Size(181, 55);
+            this.at_View4.TabIndex = 3;
+            // 
             // panel11
             // 
             this.panel11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1449,103 +1559,99 @@
             this.panel11.Size = new System.Drawing.Size(737, 165);
             this.panel11.TabIndex = 8;
             // 
-            // week5label
+            // week1label2
             // 
-            this.week5label.Appearance = System.Windows.Forms.Appearance.Button;
-            this.week5label.AutoSize = true;
-            this.week5label.BackColor = System.Drawing.Color.Red;
-            this.week5label.Checked = true;
-            this.week5label.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.week5label.Enabled = false;
-            this.week5label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
-            this.week5label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.week5label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week5label.Location = new System.Drawing.Point(625, 179);
-            this.week5label.Name = "week5label";
-            this.week5label.Size = new System.Drawing.Size(66, 27);
-            this.week5label.TabIndex = 148;
-            this.week5label.Text = "Week 5";
-            this.week5label.UseVisualStyleBackColor = false;
+            this.week1label2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week1label2.AutoSize = true;
+            this.week1label2.BackColor = System.Drawing.Color.LightCoral;
+            this.week1label2.Enabled = false;
+            this.week1label2.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
+            this.week1label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week1label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week1label2.Location = new System.Drawing.Point(332, 176);
+            this.week1label2.Name = "week1label2";
+            this.week1label2.Size = new System.Drawing.Size(66, 27);
+            this.week1label2.TabIndex = 158;
+            this.week1label2.Text = "Week 1";
+            this.week1label2.UseVisualStyleBackColor = false;
             // 
-            // week4label
+            // week2label2
             // 
-            this.week4label.Appearance = System.Windows.Forms.Appearance.Button;
-            this.week4label.AutoSize = true;
-            this.week4label.BackColor = System.Drawing.Color.Red;
-            this.week4label.Checked = true;
-            this.week4label.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.week4label.Enabled = false;
-            this.week4label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
-            this.week4label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.week4label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week4label.Location = new System.Drawing.Point(553, 179);
-            this.week4label.Name = "week4label";
-            this.week4label.Size = new System.Drawing.Size(66, 27);
-            this.week4label.TabIndex = 149;
-            this.week4label.Text = "Week 4";
-            this.week4label.UseVisualStyleBackColor = false;
+            this.week2label2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week2label2.AutoSize = true;
+            this.week2label2.BackColor = System.Drawing.Color.LightCoral;
+            this.week2label2.Enabled = false;
+            this.week2label2.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
+            this.week2label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week2label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week2label2.Location = new System.Drawing.Point(404, 176);
+            this.week2label2.Name = "week2label2";
+            this.week2label2.Size = new System.Drawing.Size(66, 27);
+            this.week2label2.TabIndex = 157;
+            this.week2label2.Text = "Week 2";
+            this.week2label2.UseVisualStyleBackColor = false;
             // 
-            // week3label
+            // week3label2
             // 
-            this.week3label.Appearance = System.Windows.Forms.Appearance.Button;
-            this.week3label.AutoSize = true;
-            this.week3label.BackColor = System.Drawing.Color.Red;
-            this.week3label.Checked = true;
-            this.week3label.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.week3label.Enabled = false;
-            this.week3label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
-            this.week3label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.week3label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week3label.Location = new System.Drawing.Point(481, 179);
-            this.week3label.Name = "week3label";
-            this.week3label.Size = new System.Drawing.Size(66, 27);
-            this.week3label.TabIndex = 150;
-            this.week3label.Text = "Week 3";
-            this.week3label.UseVisualStyleBackColor = false;
+            this.week3label2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week3label2.AutoSize = true;
+            this.week3label2.BackColor = System.Drawing.Color.LightCoral;
+            this.week3label2.Enabled = false;
+            this.week3label2.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
+            this.week3label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week3label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week3label2.Location = new System.Drawing.Point(476, 176);
+            this.week3label2.Name = "week3label2";
+            this.week3label2.Size = new System.Drawing.Size(66, 27);
+            this.week3label2.TabIndex = 156;
+            this.week3label2.Text = "Week 3";
+            this.week3label2.UseVisualStyleBackColor = false;
             // 
-            // week1label
+            // week4label2
             // 
-            this.week1label.Appearance = System.Windows.Forms.Appearance.Button;
-            this.week1label.AutoSize = true;
-            this.week1label.BackColor = System.Drawing.Color.Red;
-            this.week1label.Checked = true;
-            this.week1label.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.week1label.Enabled = false;
-            this.week1label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
-            this.week1label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.week1label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week1label.Location = new System.Drawing.Point(337, 179);
-            this.week1label.Name = "week1label";
-            this.week1label.Size = new System.Drawing.Size(66, 27);
-            this.week1label.TabIndex = 152;
-            this.week1label.Text = "Week 1";
-            this.week1label.UseVisualStyleBackColor = false;
+            this.week4label2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week4label2.AutoSize = true;
+            this.week4label2.BackColor = System.Drawing.Color.LightCoral;
+            this.week4label2.Enabled = false;
+            this.week4label2.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
+            this.week4label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week4label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week4label2.Location = new System.Drawing.Point(548, 176);
+            this.week4label2.Name = "week4label2";
+            this.week4label2.Size = new System.Drawing.Size(66, 27);
+            this.week4label2.TabIndex = 155;
+            this.week4label2.Text = "Week 4";
+            this.week4label2.UseVisualStyleBackColor = false;
             // 
-            // week2label
+            // week5label2
             // 
-            this.week2label.Appearance = System.Windows.Forms.Appearance.Button;
-            this.week2label.AutoSize = true;
-            this.week2label.BackColor = System.Drawing.Color.Red;
-            this.week2label.Checked = true;
-            this.week2label.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.week2label.Enabled = false;
-            this.week2label.FlatAppearance.CheckedBackColor = System.Drawing.Color.LimeGreen;
-            this.week2label.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.week2label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.week2label.Location = new System.Drawing.Point(409, 179);
-            this.week2label.Name = "week2label";
-            this.week2label.Size = new System.Drawing.Size(66, 27);
-            this.week2label.TabIndex = 151;
-            this.week2label.Text = "Week 2";
-            this.week2label.UseVisualStyleBackColor = false;
+            this.week5label2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.week5label2.AutoSize = true;
+            this.week5label2.BackColor = System.Drawing.Color.LightCoral;
+            this.week5label2.Enabled = false;
+            this.week5label2.FlatAppearance.CheckedBackColor = System.Drawing.Color.PaleGreen;
+            this.week5label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.week5label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.week5label2.Location = new System.Drawing.Point(620, 176);
+            this.week5label2.Name = "week5label2";
+            this.week5label2.Size = new System.Drawing.Size(66, 27);
+            this.week5label2.TabIndex = 154;
+            this.week5label2.Text = "Week 5";
+            this.week5label2.UseVisualStyleBackColor = false;
             // 
-            // at_View4
+            // label15
             // 
-            this.at_View4.BackColor = System.Drawing.Color.White;
-            this.at_View4.Location = new System.Drawing.Point(6, 6);
-            this.at_View4.Name = "at_View4";
-            this.at_View4.Size = new System.Drawing.Size(181, 55);
-            this.at_View4.TabIndex = 3;
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.Location = new System.Drawing.Point(215, 174);
+            this.label15.Name = "label15";
+            this.label15.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.label15.Size = new System.Drawing.Size(109, 27);
+            this.label15.TabIndex = 153;
+            this.label15.Text = "Pv. Dens :";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // pgControlPanel
             // 
@@ -1693,5 +1799,11 @@
         private System.Windows.Forms.CheckBox week2label;
         private System.Windows.Forms.CheckBox week3label;
         private System.Windows.Forms.CheckBox week4label;
+        private System.Windows.Forms.CheckBox week1label2;
+        private System.Windows.Forms.CheckBox week2label2;
+        private System.Windows.Forms.CheckBox week3label2;
+        private System.Windows.Forms.CheckBox week4label2;
+        private System.Windows.Forms.CheckBox week5label2;
+        private System.Windows.Forms.Label label15;
     }
 }

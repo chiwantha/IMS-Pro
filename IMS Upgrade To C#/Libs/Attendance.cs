@@ -4,6 +4,7 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Media;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -33,6 +34,12 @@ namespace IMS_Upgrade_To_C_.Libs
         public bool week3 { get; set;}
         public bool week4 { get; set;}
         public bool week5 { get; set;}
+
+        public bool week1_2 { get; set;}
+        public bool week2_2 { get; set;}
+        public bool week3_2 { get; set;}
+        public bool week4_2 { get; set;}
+        public bool week5_2 { get; set;}
 
         private void ClearStudentData()
         {
@@ -168,19 +175,83 @@ namespace IMS_Upgrade_To_C_.Libs
             }
         }
 
-        private async Task LoadAndSetAttendanceAsync(string studentId, string classId, string month, string year, string table)
+        //private async Task LoadAndSetAttendanceAsync(string studentId, string classId, string month, string year, string table)
+        //{
+        //    // reset all to false first
+        //    week1 = false;
+        //    week2 = false;
+        //    week3 = false;
+        //    week4 = false;
+        //    week5 = false;
+
+        //    // previous month reset all to false
+        //    week1_2 = false;
+        //    week2_2 = false;
+        //    week3_2 = false;
+        //    week4_2 = false;
+        //    week5_2 = false;
+
+
+        //    if (string.IsNullOrWhiteSpace(table))
+        //    {
+        //        return;
+        //    }
+
+        //    try
+        //    {
+        //        using (SqlConnection con = connection.my_conn())
+        //        {
+        //            await con.OpenAsync();
+
+        //            string query = @"SELECT week1, week2, week3, week4, week5
+        //                     FROM " + table + @" 
+        //                     WHERE student_id=@student_id 
+        //                       AND class_id=@class_id  
+        //                       AND month=@month 
+        //                       AND year=@year";
+
+        //            using (SqlCommand cmd = new SqlCommand(query, con))
+        //            {
+        //                cmd.Parameters.AddWithValue("@student_id", studentId);
+        //                cmd.Parameters.AddWithValue("@class_id", classId);
+        //                cmd.Parameters.AddWithValue("@month", month);
+        //                cmd.Parameters.AddWithValue("@year", year);
+
+        //                using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
+        //                {
+        //                    if (await reader.ReadAsync())
+        //                    {
+        //                        week1 = reader["week1"]?.ToString() == "1";
+        //                        week2 = reader["week2"]?.ToString() == "1";
+        //                        week3 = reader["week3"]?.ToString() == "1";
+        //                        week4 = reader["week4"]?.ToString() == "1";
+        //                        week5 = reader["week5"]?.ToString() == "1";
+        //                    }
+        //                }
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show("Error loading attendance: " + ex.Message);
+        //    }
+        //}
+
+
+
+
+        //-------------------------------------------------------------------------------------------
+
+        private async Task LoadAndSetAttendanceAsync(string studentId, string classId, string monthName, string year, string table)
         {
-            // reset all to false first
-            week1 = false;
-            week2 = false;
-            week3 = false;
-            week4 = false;
-            week5 = false;
+            // Reset all current month flags
+            week1 = week2 = week3 = week4 = week5 = false;
+
+            // Reset all previous month flags
+            week1_2 = week2_2 = week3_2 = week4_2 = week5_2 = false;
 
             if (string.IsNullOrWhiteSpace(table))
-            {
                 return;
-            }
 
             try
             {
@@ -188,19 +259,33 @@ namespace IMS_Upgrade_To_C_.Libs
                 {
                     await con.OpenAsync();
 
-                    string query = @"SELECT week1, week2, week3, week4, week5
-                             FROM " + table + @" 
-                             WHERE student_id=@student_id 
-                               AND class_id=@class_id  
-                               AND month=@month 
-                               AND year=@year";
+                    // Convert current month name to DateTime to get numeric month
+                    DateTime currentMonthDate = DateTime.ParseExact(monthName, "MMMM", CultureInfo.InvariantCulture);
+                    int currMonth = currentMonthDate.Month;
+                    int currYear = int.Parse(year);
 
+                    // Calculate previous month and year
+                    int prevMonth = currMonth == 1 ? 12 : currMonth - 1;
+                    int prevYear = currMonth == 1 ? currYear - 1 : currYear;
+
+                    // Get full month names again (e.g., "May", "April")
+                    string currMonthName = CultureInfo.InvariantCulture.DateTimeFormat.GetMonthName(currMonth);
+                    string prevMonthName = CultureInfo.InvariantCulture.DateTimeFormat.GetMonthName(prevMonth);
+
+                    string query = @"SELECT week1, week2, week3, week4, week5 
+                             FROM " + table + @" 
+                             WHERE student_id = @student_id 
+                               AND class_id = @class_id  
+                               AND month = @month 
+                               AND year = @year";
+
+                    // Load current month attendance
                     using (SqlCommand cmd = new SqlCommand(query, con))
                     {
                         cmd.Parameters.AddWithValue("@student_id", studentId);
                         cmd.Parameters.AddWithValue("@class_id", classId);
-                        cmd.Parameters.AddWithValue("@month", month);
-                        cmd.Parameters.AddWithValue("@year", year);
+                        cmd.Parameters.AddWithValue("@month", currMonthName);
+                        cmd.Parameters.AddWithValue("@year", currYear.ToString());
 
                         using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
                         {
@@ -214,6 +299,27 @@ namespace IMS_Upgrade_To_C_.Libs
                             }
                         }
                     }
+
+                    // Load previous month attendance
+                    using (SqlCommand cmdPrev = new SqlCommand(query, con))
+                    {
+                        cmdPrev.Parameters.AddWithValue("@student_id", studentId);
+                        cmdPrev.Parameters.AddWithValue("@class_id", classId);
+                        cmdPrev.Parameters.AddWithValue("@month", prevMonthName);
+                        cmdPrev.Parameters.AddWithValue("@year", prevYear.ToString());
+
+                        using (SqlDataReader readerPrev = await cmdPrev.ExecuteReaderAsync())
+                        {
+                            if (await readerPrev.ReadAsync())
+                            {
+                                week1_2 = readerPrev["week1"]?.ToString() == "1";
+                                week2_2 = readerPrev["week2"]?.ToString() == "1";
+                                week3_2 = readerPrev["week3"]?.ToString() == "1";
+                                week4_2 = readerPrev["week4"]?.ToString() == "1";
+                                week5_2 = readerPrev["week5"]?.ToString() == "1";
+                            }
+                        }
+                    }
                 }
             }
             catch (Exception ex)
@@ -221,10 +327,6 @@ namespace IMS_Upgrade_To_C_.Libs
                 MessageBox.Show("Error loading attendance: " + ex.Message);
             }
         }
-
-
-
-        //-------------------------------------------------------------------------------------------
 
         private async Task Process_Regular_Attendance()
         {
