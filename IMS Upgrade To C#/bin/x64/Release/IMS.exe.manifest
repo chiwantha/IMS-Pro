@@ -103,14 +103,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IMS.exe" size="19159040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IMS.exe" size="19158528">
       <assemblyIdentity name="IMS" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>tF9NNiLCv6rztAJQVSox6+iSWlrGijasBbwCpGl+ujM=</dsig:DigestValue>
+        <dsig:DigestValue>Gx9RkSS6k933JfFbCCHmR8K2oWeQd2SZKYCPBHDviOY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

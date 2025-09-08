@@ -117,7 +117,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 13);
             this.label2.TabIndex = 19;
-            this.label2.Text = "IMS Pro v.240617#";
+            this.label2.Text = "IMS Pro v.250907#";
             // 
             // pictureBox4
             // 
